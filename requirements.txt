@@ -1,0 +1,9 @@
+tqdm
+fire
+numpy
+openai
+tenacity
+joblib
+python-dotenv
+marko
+loguru
