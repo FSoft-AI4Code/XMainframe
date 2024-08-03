@@ -1,7 +1,7 @@
 <div align="center">
 
 # XMAiNframe: A Large Language Model for Mainframe Modernization
-<img src="./asset/XMAiNframe.png" width='560px' alt="logo">
+<img src="./asset/XMAiNframe.png" width='300px' alt="logo">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 [![arXiv](https://img.shields.io/badge/2406.11927-red?style=flat&label=arXiv)](link) 
@@ -14,13 +14,13 @@
 ## Table of Contents
 - [Introduction](#dataset-summary)
 - [Procedure of Data Construction](#procedure-of-data-construction)
- - [Mainframe-Training](#mainframe-training)
- - [Mainframe-Instruct](#mainframe-instruct)
+  - [Mainframe-Training](#mainframe-training)
+  - [Mainframe-Instruct](#mainframe-instruct)
 - [Model Download](#model-download)
 - [Evaluation Results](#evaluation-results)
 - [Usage](#usage)
- - [Fine-tune XMAiNframe](#how-to-fine-tune-xmainframe)
- - [Inference](#inference)
+  - [Fine-tune XMAiNframe](#how-to-fine-tune-xmainframe)
+  - [Inference](#inference)
 - [License](##licensing-information)
 - [Acknowledgements](#acknowledgements)
 - [Contact Us](#contact-us)
@@ -49,15 +49,15 @@ We utilized two different sources: using the GitHub API to collect COBOL project
 
 Mainframe-Instruct is a high-quality synthetic dataset created through 5 steps:
 
-Step 1: 300 seed data instances about Mainframe and COBOL are gathered and annotated by our domain experts.
+- Step 1: 300 seed data instances about Mainframe and COBOL are gathered and annotated by our domain experts.
 
-Step 2: Using popular LLMs to enrich Mainframe-Instruct from seed data.
+- Step 2: Using popular LLMs to enrich Mainframe-Instruct from seed data.
 
-Step 3: Utilizing GPT-4 as an evaluator to judge model responses, scoring the outputs and ranking responses in a pairwise manner.
+- Step 3: Utilizing GPT-4 as an evaluator to judge model responses, scoring the outputs and ranking responses in a pairwise manner.
 
-Step 4: Filtering and manually checking.
+- Step 4: Filtering and manually checking.
 
-Step 5: Dividing Mainframe-Instruct into three tasks: Multiple Choice Questions, Question Answering, and COBOL summarization.
+- Step 5: Dividing Mainframe-Instruct into three tasks: Multiple Choice Questions, Question Answering, and COBOL summarization.
 
 Below is the statitcs of Mainframe-Instruct Dataset:
 
@@ -119,7 +119,7 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
 <table>
     <tr>
         <td style="font-weight:bold">Model</td>
-        <td style="font-weight:bold">Accuracy (\%)</td>
+        <td style="font-weight:bold">Accuracy (%)</td>
     </tr>
     <tr>
         <td>GPT-4</td>
@@ -363,6 +363,7 @@ You can then install the remaining package dependencies as follows:
 
 ```shell
 git clone https://github.com/FSoft-AI4Code/XMainframe.git
+cd XMainframe
 pip install -r requirements.txt
 ```
 You can now check out the `scripts` and `recipes` directories for instructions on how to fine-tune our model 🪁!
