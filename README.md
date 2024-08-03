@@ -1,7 +1,7 @@
 <div align="center">
 
 # XMAiNframe: A Large Language Model for Mainframe Modernization
-<img src="./asset/XMAiNframe.png"  alt="logo">
+<img src="./asset/XMAiNframe.png" width='560px' alt="logo">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 [![arXiv](https://img.shields.io/badge/2406.11927-red?style=flat&label=arXiv)](link) 
@@ -43,7 +43,7 @@ We utilized two different sources: using the GitHub API to collect COBOL project
 
 <div align="center">
 
-<img src="./asset/cobol_diagram-Page-1.drawio.pdf" >
+<img src="./asset/cobol_diagram-Page-1.drawio.png" >
 
 </div>
 
@@ -118,8 +118,8 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
 
 <table>
     <tr>
-        <td>\textbf{Model}</td>
-        <td>\textbf{Accuracy (\%)}</td>
+        <td style="font-weight:bold">Model</td>
+        <td style="font-weight:bold">Accuracy (\%)</td>
     </tr>
     <tr>
         <td>GPT-4</td>
@@ -155,7 +155,7 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
     </tr>
     <tr>
         <td>XMAiNframe-Instruct 10.5B</td>
-        <td>\textbf{77.89}</td>
+        <td>77.89</td>
     </tr>
 </table>
 
@@ -163,13 +163,13 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
 
 <table>
     <tr>
-        <td>\multicolumn{1}{c|}{\textbf{Models}}</td>
-        <td>\textbf{MAP}</td>
-        <td>\textbf{F1-Score}</td>
-        <td>\textbf{BERTScore}</td>
-        <td>\textbf{RougeL}</td>
-        <td>\textbf{Meteor}</td>
-        <td>\textbf{BLEU-4}</td>
+        <td style="font-weight:bold">Models</td>
+        <td style="font-weight:bold">MAP</td>
+        <td style="font-weight:bold">F1-Score</td>
+        <td style="font-weight:bold">BERTScore</td>
+        <td style="font-weight:bold">RougeL</td>
+        <td style="font-weight:bold">Meteor</td>
+        <td style="font-weight:bold">BLEU-4</td>
     </tr>
     <tr>
         <td>GPT 4</td>
@@ -236,7 +236,7 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
     </tr>
     <tr>
         <td>XMAiNframe-Instruct 7B</td>
-        <td>\textbf{0.45}</td>
+        <td>0.45</td>
         <td>0.42</td>
         <td>0.92</td>
         <td>0.4</td>
@@ -246,24 +246,24 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
     <tr>
         <td>XMAiNframe-Instruct 10.5B</td>
         <td>0.43</td>
-        <td>\textbf{0.42 }</td>
-        <td>\textbf{0.92   }</td>
-        <td>\textbf{0.4  }</td>
-        <td>\textbf{0.42   }</td>
-        <td>\textbf{20.93 }</td>
+        <td>0.42 </td>
+        <td>0.92   </td>
+        <td>0.4  </td>
+        <td>0.42   </td>
+        <td>20.93 </td>
     </tr>
 </table>
 
 ## COBOL Code Summarization
 <table>
     <tr>
-        <td>\multicolumn{1}{c|}{\textbf{Models}}</td>
-        <td>\textbf{MAP}</td>
-        <td>\textbf{F1-Score}</td>
-        <td>\textbf{BERTScore}</td>
-        <td>\textbf{RougeL}</td>
-        <td>\textbf{Meteor}</td>
-        <td>\textbf{BLEU-4}</td>
+        <td style="font-weight:bold">Models</td>
+        <td style="font-weight:bold">MAP</td>
+        <td style="font-weight:bold">F1-Score</td>
+        <td style="font-weight:bold">BERTScore</td>
+        <td style="font-weight:bold">RougeL</td>
+        <td style="font-weight:bold">Meteor</td>
+        <td style="font-weight:bold">BLEU-4</td>
     </tr>
     <tr>
         <td>GPT 4</td>
@@ -330,7 +330,7 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
     </tr>
     <tr>
         <td>XMAiNframe-Instruct 7B</td>
-        <td>\textbf{0.45}</td>
+        <td>0.45</td>
         <td>0.42</td>
         <td>0.92</td>
         <td>0.4</td>
@@ -340,11 +340,11 @@ We release XMAiNframe with 7B and 10.5B parameters, including base and instruct 
     <tr>
         <td>XMAiNframe-Instruct 10.5B</td>
         <td>0.43</td>
-        <td>\textbf{0.42 }</td>
-        <td>\textbf{0.92   }</td>
-        <td>\textbf{0.4  }</td>
-        <td>\textbf{0.42   }</td>
-        <td>\textbf{20.93 }</td>
+        <td>0.42 </td>
+        <td>0.92   </td>
+        <td>0.4  </td>
+        <td>0.42   </td>
+        <td>20.93 </td>
     </tr>
 </table>
 
