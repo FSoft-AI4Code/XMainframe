@@ -1,8 +1,6 @@
 <div align="center">
 
 # XMAiNframe: A Large Language Model for Mainframe Modernization
-<img src="./asset/XMAiNframe.png" width='300px' alt="logo">
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 [![arXiv](https://img.shields.io/badge/2406.11927-red?style=flat&label=arXiv)](link) 
 [![XMAiNframe on Huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-XMAiNframe-ffc107?color=ffc107&logoColor=white%22%20style=%22display:%20inline-block;%20vertical-align:%20middle;)](https://huggingface.co/collections/Fsoft-AIC/xmainframe-66aca02d5b552e62033dc2bc)  
