@@ -90,10 +90,12 @@ Below is the statitcs of Mainframe-Instruct Dataset:
 [MainframeBench](https://huggingface.co/datasets/Fsoft-AIC/MainframeBench), our benchmark for mainframe knowledge, is the testing set in Mainframe-Instruct Dataset. This benchmark is used to evaluate our LLMs with others which is now available at Huggingface datasets.
 
 ```python
-from datasets import load_dataset
+ffrom datasets import load_dataset
 
-# MainframeBench contains 3 subsets, corresponding to 3 sub tasks: Question Answering, Mutiple Choice Question and COBOL code summarization
-dataset = load_dataset("Fsoft-AIC/MainframeBench")
+# Load each sub-set in MainframeBench
+QA_set = load_dataset("Fsoft-AIC/MainframeBench", 'question_answering')
+MC_set = load_dataset("Fsoft-AIC/MainframeBench", 'multiple_choice_question')
+Summarization_set = load_dataset("Fsoft-AIC/MainframeBench", 'COBOL_code_summarization')
 ```
 
 # Model Download
