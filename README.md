@@ -41,7 +41,7 @@ We utilized two different sources: using the GitHub API to collect COBOL project
 
 <div align="center">
 
-<img src="./asset/cobol_diagram-Page-1.drawio.png" >
+<img src="./asset/cobol_diagram-Page-8.drawio.png" >
 
 </div>
 
