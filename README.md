@@ -410,13 +410,10 @@ More details can be found in our [technical report](https://github.com/FSoft-AI4
 
 If you're using XMAiNframe, please cite using this BibTeX:
 ```bibtex
-@misc{dau2024xmainframelargelanguagemodel,
-      title={XMainframe: A Large Language Model for Mainframe Modernization}, 
-      author={Anh T. V. Dau and Hieu Trung Dao and Anh Tuan Nguyen and Hieu Trung Tran and Phong X. Nguyen and Nghi D. Q. Bui},
-      year={2024},
-      eprint={2408.04660},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2408.04660}, 
+@article{dau2024xmainframe,
+  title={XMainframe: A Large Language Model for Mainframe Modernization},
+  author={Dau, Anh TV and Dao, Hieu Trung and Nguyen, Anh Tuan and Tran, Hieu Trung and Nguyen, Phong X and Bui, Nghi DQ},
+  journal={arXiv preprint arXiv:2408.04660},
+  year={2024}
 }
 ```
