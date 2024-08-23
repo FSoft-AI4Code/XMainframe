@@ -385,7 +385,7 @@ You can now check out the `scripts` and `recipes` directories for instructions o
 
 ## Inference
 
-Here is a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
+Here is a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate content.
 
 
 ```python
@@ -393,8 +393,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("Fsoft-AIC/XMAiNframe-instruct-7b")
 model = AutoModelForCausalLM.from_pretrained("Fsoft-AIC/XMAiNframe-instruct-7b")
 messages=[
-    {'role':'system', 'content': "You are a helpful assistant"},
-    {'role': 'user', 'content': 'What is the future of Mainframe?'}
+    {'from':'system', 'value': "You are a helpful assistant"},
+    {'from': 'human', 'value': 'What is the future of Mainframe?'}
 ]
 inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to(model.device)
  
